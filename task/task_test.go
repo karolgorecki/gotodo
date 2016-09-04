@@ -3,8 +3,8 @@ package task_test
 import (
 	"testing"
 
-	"github.com/karolgorecki/todo/task"
-	"github.com/karolgorecki/todo/testdb"
+	"github.com/karolgorecki/gotodo/task"
+	"github.com/karolgorecki/gotodo/testdb"
 )
 
 func TestRegisterDB(t *testing.T) {

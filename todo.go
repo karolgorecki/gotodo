@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	_ "github.com/karolgorecki/todo/boltstore" // pick the store
-	"github.com/karolgorecki/todo/server"
+	_ "github.com/karolgorecki/gotodo/boltstore" // pick the store
+	"github.com/karolgorecki/gotodo/server"
 )
 
 func main() {

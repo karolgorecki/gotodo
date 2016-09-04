@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"text/template"
 
-	"github.com/karolgorecki/todo/task"
+	"github.com/karolgorecki/gotodo/task"
 
 	"github.com/julienschmidt/httprouter"
 )

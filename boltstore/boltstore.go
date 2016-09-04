@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/boltdb/bolt"
-	"github.com/karolgorecki/todo/task"
+	"github.com/karolgorecki/gotodo/task"
 )
 
 const (

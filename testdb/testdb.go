@@ -1,6 +1,6 @@
 package testdb
 
-import "github.com/karolgorecki/todo/task"
+import "github.com/karolgorecki/gotodo/task"
 
 func init() {
 	task.RegisterDB(&TestDB{})
