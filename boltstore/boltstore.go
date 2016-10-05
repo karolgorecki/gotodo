@@ -105,9 +105,9 @@ func (bs *BoltStore) Get(id string) (foundTask *task.Task) {
 			foundTask = nil
 			return nil
 		}
-		err := json.Unmarshal(v, &foundTask)
-		if err != nil {
-			log.Fatal(err)
+		err2 := json.Unmarshal(v, &foundTask)
+		if err2 != nil {
+			log.Fatal(err2)
 		}
 
 		return nil
